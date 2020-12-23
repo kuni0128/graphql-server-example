@@ -29,3 +29,9 @@ const books = [
     author: '岩明均',
   },
 ];
+
+const resolvers = {
+  Query: {
+    books: () => books,
+  },
+};
