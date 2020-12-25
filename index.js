@@ -30,6 +30,7 @@ const books = [
   },
 ];
 
+// リゾルバーとは、クエリとデータソースを紐付けるもの。
 const resolvers = {
   Query: {
     books: () => books,
